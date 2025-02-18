@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Ball : MonoBehaviour
@@ -11,6 +13,7 @@ public class Ball : MonoBehaviour
     void Start()
     {
         GetComponent<Rigidbody2D>().linearVelocity = Vector2.up * speed;
+        StartCoroutine(IncreaseSpeedOverTime());
     }
 
     float hitFactor(Vector2 ballPos, Vector2 racketPos, float racketWidth)
@@ -36,4 +39,44 @@ public class Ball : MonoBehaviour
             GetComponent<Rigidbody2D>().linearVelocity = dir * speed;
         }
     }
+    
+    void Update()
+    {
+    // Verifica la posición de la bola en cada frame
+        if (this.transform.position.y < -110)
+        {
+            Debug.Log("You lose!");
+            SceneManager.LoadScene("Scenes/GameOver");
+            if (SceneManager.GetActiveScene().name.Equals("GameOver"))
+        {
+                Debug.Log("QUIT!"); 
+                Application.Quit(); 
+            
+        }
+        } 
+    }
+    
+    
+    IEnumerator IncreaseSpeedOverTime()
+    {
+        while (true)
+        {
+            if (SceneManager.GetActiveScene().name.Equals("Scene2"))
+            {
+                yield return new WaitForSeconds(10);
+                speed += 13;
+                Debug.Log("VELCOIDAD ACTUAL"+speed);
+                GetComponent<Rigidbody2D>().linearVelocity = GetComponent<Rigidbody2D>().linearVelocity.normalized * speed;
+            }
+            else
+            {
+            yield return new WaitForSeconds(20);
+            speed += 10;
+            Debug.Log("VELCOIDAD ACTUAL"+speed);
+            GetComponent<Rigidbody2D>().linearVelocity = GetComponent<Rigidbody2D>().linearVelocity.normalized * speed;
+                
+            }
+        }
+    }
+    
 }
