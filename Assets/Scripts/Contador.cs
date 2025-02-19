@@ -10,7 +10,7 @@ public class Contador : MonoBehaviour
     void Start()
     {
         numPoints = GetComponentInParent<TextMeshProUGUI>();
-        if (SceneManager.GetActiveScene().name.Equals("Scene2"))
+        if (SceneManager.GetActiveScene().name.Equals("EscenaSegunda"))
         {
             numPoints.text = PlayerPrefs.GetInt("Contador").ToString();
             

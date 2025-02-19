@@ -61,7 +61,7 @@ public class Ball : MonoBehaviour
     {
         while (true)
         {
-            if (SceneManager.GetActiveScene().name.Equals("Scene2"))
+            if (SceneManager.GetActiveScene().name.Equals("EscenaSegunda"))
             {
                 yield return new WaitForSeconds(10);
                 speed += 13;

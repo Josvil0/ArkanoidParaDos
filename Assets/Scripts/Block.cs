@@ -24,7 +24,7 @@ public class Block : MonoBehaviour
             //Debug.Log("Bloques: " + totalBlocks);
             if (totalBlocks <= 0)
                  {
-                     SceneManager.LoadScene("Scene2");
+                     SceneManager.LoadScene("EscenaSegunda");
                      //  LoadNextScene(); // Cuando no queden bloques cambia de escena
                  }
             Renderer render = GetComponent<Renderer>();
