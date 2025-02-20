@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 933fce88556e5c843af1e6f9fa7b5d39
+guid: 09a7031f9e4df04d9a2e382d0abc61bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5475495956876463295
-    second: fondo menu_0
+      213: -3422619889826358309
+    second: Naranja_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fondo menu_0
+      name: Naranja_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1200
-        height: 672
+        x: 7
+        y: 10
+        width: 17
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbc85b6ff8edcfb40800000000000000
-      internalID: 5475495956876463295
+      spriteID: bdb96b118596080d0800000000000000
+      internalID: -3422619889826358309
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fondo menu_0: 5475495956876463295
+      Naranja_0: -3422619889826358309
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

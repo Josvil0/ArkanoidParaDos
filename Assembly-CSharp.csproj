@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\BallRotation.cs" />
     <Compile Include="Assets\Scripts\MenuInicial.cs" />
     <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\MenuPausa.cs" />
   </ItemGroup>
   <ItemGroup>

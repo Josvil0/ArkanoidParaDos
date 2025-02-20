@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 933fce88556e5c843af1e6f9fa7b5d39
+guid: e257493b080b9c1a0b1f1342b7c28c83
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5475495956876463295
-    second: fondo menu_0
+      213: -5228728428356906442
+    second: Rojo_scaled_103x_pngcrushed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fondo menu_0
+      name: Rojo_scaled_103x_pngcrushed_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1200
-        height: 672
+        x: 823
+        y: 1132
+        width: 1547
+        height: 826
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbc85b6ff8edcfb40800000000000000
-      internalID: 5475495956876463295
+      spriteID: 632dcc88233df67b0800000000000000
+      internalID: -5228728428356906442
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fondo menu_0: 5475495956876463295
+      Rojo_scaled_103x_pngcrushed_0: -5228728428356906442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
