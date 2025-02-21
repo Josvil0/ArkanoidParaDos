@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -15
-    y: 93
+    x: -259
+    y: 137
     width: 1904
     height: 927
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 676
     height: 871
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -300,8 +300,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 326
-    y: 129
+    x: 82
+    y: 173
     width: 885
     height: 568
   m_SerializedDataModeController:
@@ -844,9 +844,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -78.94893, y: 41.393536, z: -2.3388739}
+    m_Target: {x: 45.046333, y: -17.560602, z: -1.3653115}
     speed: 2
-    m_Value: {x: -86.85, y: 28.787338, z: -2.164283}
+    m_Value: {x: 45.046333, y: -17.560602, z: -1.3653115}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -896,9 +896,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 405.44363
+    m_Target: 295.4814
     speed: 2
-    m_Value: 387.98434
+    m_Value: 295.4814
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -970,10 +970,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 128}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c811ffffa415ffff
+      m_ExpandedIDs: d815feffd21afeff7a1bfeffd41cfeff2e1efeff901ffeff3c20feff9621fefff022feff5425feffda27feffe029feffe22bfeff962cfeffb82ffeff944bfeff1a4dfeff024ffeff8650feff1852feff9e53feff2455feff7e56feff2657feff8058feff065afeff605bfeffe65cfeff745efeff0660feff9861feff1e63feffa864feffc867feff5c69feff086afeff706bfeffc06cfeff2ccdfeff2ecdfeffcadefeff5adffefff0e0feff82e2feff08e4feffc0e6feff8ae8feff5cfefeff2809ffffbc09ffff420bffffe40effffac0fffff0e11ffff5c15ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1120,8 +1120,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: -15
-    y: 723
+    x: 0
+    y: 618
     width: 1227
     height: 251
   m_SerializedDataModeController:
@@ -1163,9 +1163,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 90040100
-    m_LastClickedID: 66704
-    m_ExpandedIDs: 00000000e4f100006cf2000024f90000ce0c010000ca9a3bffffff7f
+    m_SelectedIDs: b4040100
+    m_LastClickedID: 66740
+    m_ExpandedIDs: 0000000004f2000006f2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

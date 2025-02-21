@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 108829320}
   - component: {fileID: 108829319}
   m_Layer: 0
-  m_Name: Bloque_Verde
+  m_Name: BloqueVerde 7
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -409,11 +409,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &108829323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -484,50 +490,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &147199678
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 147199680}
-  - component: {fileID: 147199679}
-  m_Layer: 0
-  m_Name: PowerUp Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &147199679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147199678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b364d5cd6d5a384bb798bb70a69a56d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &147199680
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147199678}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &163635497
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,7 +505,7 @@ GameObject:
   - component: {fileID: 163635499}
   - component: {fileID: 163635498}
   m_Layer: 0
-  m_Name: Bloque_Morado
+  m_Name: BloqueMorado 6
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -731,11 +693,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &163635502
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -821,7 +789,7 @@ GameObject:
   - component: {fileID: 211445867}
   - component: {fileID: 211445866}
   m_Layer: 0
-  m_Name: Bloque_Verde
+  m_Name: BloqueVerde 3
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1009,11 +977,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &211445870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1100,7 +1074,7 @@ GameObject:
   - component: {fileID: 255944050}
   m_Layer: 0
   m_Name: ball_0
-  m_TagString: Ball
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1290,7 +1264,7 @@ GameObject:
   - component: {fileID: 335608213}
   - component: {fileID: 335608212}
   m_Layer: 0
-  m_Name: Bloque_Naranja
+  m_Name: BloqueNaranja 2
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1478,19 +1452,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 1
+  tipo: 0
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
   powerUpPrefabs:
-  - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
-  - {fileID: 753253491333248729, guid: 3f7b2ee99d27f3f4e98779330e895050, type: 3}
-  - {fileID: 6834413431652499723, guid: 7d23a8f7d6ee2564a90d9f259227d327, type: 3}
-  - {fileID: 8451697284008149924, guid: 1a2cc9be4efaa5b43b718de703465b3e, type: 3}
-  - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
-  - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
-  - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  - {fileID: 1874982066420431555, guid: 1ca78a0208f58674980856bbdde651e6, type: 3}
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &335608216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1738,7 +1710,7 @@ GameObject:
   - component: {fileID: 489584506}
   - component: {fileID: 489584505}
   m_Layer: 0
-  m_Name: Bloque_Azul
+  m_Name: Red gradient (34)
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1926,11 +1898,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &489584509
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2153,7 +2131,7 @@ GameObject:
   - component: {fileID: 596095120}
   - component: {fileID: 596095121}
   m_Layer: 0
-  m_Name: Bloque_Morado
+  m_Name: BloqueMorado 4
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2198,11 +2176,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &596095118
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2431,7 +2415,7 @@ GameObject:
   - component: {fileID: 609924938}
   - component: {fileID: 609924937}
   m_Layer: 0
-  m_Name: Bloque_Morado
+  m_Name: BloqueMorado 3
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2619,11 +2603,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &609924941
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2793,7 +2783,7 @@ GameObject:
   - component: {fileID: 672448218}
   - component: {fileID: 672448217}
   m_Layer: 0
-  m_Name: Bloque_Verde
+  m_Name: BloqueVerde 5
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2981,11 +2971,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &672448221
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3071,7 +3067,7 @@ GameObject:
   - component: {fileID: 724841636}
   - component: {fileID: 724841635}
   m_Layer: 0
-  m_Name: Bloque_Rojo
+  m_Name: BloqueRojo 4
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3263,7 +3259,13 @@ MonoBehaviour:
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &724841639
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3349,7 +3351,7 @@ GameObject:
   - component: {fileID: 855145720}
   - component: {fileID: 855145719}
   m_Layer: 0
-  m_Name: Bloque_Verde
+  m_Name: BloqueVerde 6
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3537,11 +3539,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &855145723
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3789,7 +3797,7 @@ GameObject:
   - component: {fileID: 978667978}
   - component: {fileID: 978667977}
   m_Layer: 0
-  m_Name: Bloque_Morado
+  m_Name: BloqueMorado 5
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3977,11 +3985,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &978667981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4067,7 +4081,7 @@ GameObject:
   - component: {fileID: 1037229528}
   - component: {fileID: 1037229527}
   m_Layer: 0
-  m_Name: Bloque_Naranja
+  m_Name: BloqueNaranja 5
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4255,19 +4269,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 1
+  tipo: 0
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
   powerUpPrefabs:
-  - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
-  - {fileID: 753253491333248729, guid: 3f7b2ee99d27f3f4e98779330e895050, type: 3}
-  - {fileID: 6834413431652499723, guid: 7d23a8f7d6ee2564a90d9f259227d327, type: 3}
-  - {fileID: 8451697284008149924, guid: 1a2cc9be4efaa5b43b718de703465b3e, type: 3}
-  - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
-  - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
-  - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  - {fileID: 1874982066420431555, guid: 1ca78a0208f58674980856bbdde651e6, type: 3}
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1037229531
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4353,7 +4365,7 @@ GameObject:
   - component: {fileID: 1058521036}
   - component: {fileID: 1058521035}
   m_Layer: 0
-  m_Name: Bloque_Naranja
+  m_Name: BloqueNaranja 7
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4541,19 +4553,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 1
+  tipo: 0
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
   powerUpPrefabs:
-  - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
-  - {fileID: 753253491333248729, guid: 3f7b2ee99d27f3f4e98779330e895050, type: 3}
-  - {fileID: 6834413431652499723, guid: 7d23a8f7d6ee2564a90d9f259227d327, type: 3}
-  - {fileID: 8451697284008149924, guid: 1a2cc9be4efaa5b43b718de703465b3e, type: 3}
-  - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
-  - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
-  - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  - {fileID: 1874982066420431555, guid: 1ca78a0208f58674980856bbdde651e6, type: 3}
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1058521039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4639,7 +4649,7 @@ GameObject:
   - component: {fileID: 1163230553}
   - component: {fileID: 1163230552}
   m_Layer: 0
-  m_Name: Bloque_Naranja
+  m_Name: BloqueNaranja 4
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4827,19 +4837,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 1
+  tipo: 0
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
   powerUpPrefabs:
-  - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
-  - {fileID: 753253491333248729, guid: 3f7b2ee99d27f3f4e98779330e895050, type: 3}
-  - {fileID: 6834413431652499723, guid: 7d23a8f7d6ee2564a90d9f259227d327, type: 3}
-  - {fileID: 8451697284008149924, guid: 1a2cc9be4efaa5b43b718de703465b3e, type: 3}
-  - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
-  - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
-  - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  - {fileID: 1874982066420431555, guid: 1ca78a0208f58674980856bbdde651e6, type: 3}
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1163230556
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4925,7 +4933,7 @@ GameObject:
   - component: {fileID: 1256789579}
   - component: {fileID: 1256789578}
   m_Layer: 0
-  m_Name: Bloque_Rojo
+  m_Name: BloqueRojo 3
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5117,7 +5125,13 @@ MonoBehaviour:
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1256789582
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5203,7 +5217,7 @@ GameObject:
   - component: {fileID: 1363595122}
   - component: {fileID: 1363595121}
   m_Layer: 0
-  m_Name: Bloque_Naranja
+  m_Name: BloqueNaranja 3
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5391,19 +5405,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 1
+  tipo: 0
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
   powerUpPrefabs:
-  - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
-  - {fileID: 753253491333248729, guid: 3f7b2ee99d27f3f4e98779330e895050, type: 3}
-  - {fileID: 6834413431652499723, guid: 7d23a8f7d6ee2564a90d9f259227d327, type: 3}
-  - {fileID: 8451697284008149924, guid: 1a2cc9be4efaa5b43b718de703465b3e, type: 3}
-  - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
-  - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
-  - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  - {fileID: 1874982066420431555, guid: 1ca78a0208f58674980856bbdde651e6, type: 3}
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1363595125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5489,7 +5501,7 @@ GameObject:
   - component: {fileID: 1376141693}
   - component: {fileID: 1376141692}
   m_Layer: 0
-  m_Name: Bloque_Morado
+  m_Name: BloqueMorado 4
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5677,11 +5689,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1376141696
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5767,7 +5785,7 @@ GameObject:
   - component: {fileID: 1403644069}
   - component: {fileID: 1403644068}
   m_Layer: 0
-  m_Name: Bloque_Naranja
+  m_Name: BloqueNaranja 6
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5955,19 +5973,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 1
+  tipo: 0
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
   powerUpPrefabs:
-  - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
-  - {fileID: 753253491333248729, guid: 3f7b2ee99d27f3f4e98779330e895050, type: 3}
-  - {fileID: 6834413431652499723, guid: 7d23a8f7d6ee2564a90d9f259227d327, type: 3}
-  - {fileID: 8451697284008149924, guid: 1a2cc9be4efaa5b43b718de703465b3e, type: 3}
-  - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
-  - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
-  - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  - {fileID: 1874982066420431555, guid: 1ca78a0208f58674980856bbdde651e6, type: 3}
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1403644072
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6339,7 +6355,7 @@ GameObject:
   - component: {fileID: 1595466553}
   - component: {fileID: 1595466554}
   m_Layer: 0
-  m_Name: Bloque_Azul
+  m_Name: Red gradient (28)
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6384,11 +6400,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1595466551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6617,7 +6639,7 @@ GameObject:
   - component: {fileID: 1751227755}
   - component: {fileID: 1751227754}
   m_Layer: 0
-  m_Name: Bloque_Morado
+  m_Name: BloqueMorado 2
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6805,11 +6827,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1751227758
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6895,7 +6923,7 @@ GameObject:
   - component: {fileID: 1766533142}
   - component: {fileID: 1766533141}
   m_Layer: 0
-  m_Name: Bloque_Azul
+  m_Name: Red gradient (43)
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7083,11 +7111,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1766533145
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7414,7 +7448,7 @@ GameObject:
   - component: {fileID: 1833013171}
   - component: {fileID: 1833013170}
   m_Layer: 0
-  m_Name: Bloque_Rojo
+  m_Name: BloqueRojo 7
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7606,7 +7640,13 @@ MonoBehaviour:
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1833013174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7692,7 +7732,7 @@ GameObject:
   - component: {fileID: 1873450083}
   - component: {fileID: 1873450082}
   m_Layer: 0
-  m_Name: Bloque_Rojo
+  m_Name: BloqueRojo 5
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7884,7 +7924,13 @@ MonoBehaviour:
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1873450086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7970,7 +8016,7 @@ GameObject:
   - component: {fileID: 1929243929}
   - component: {fileID: 1929243930}
   m_Layer: 0
-  m_Name: Bloque_Verde
+  m_Name: BloqueVerde 8
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8015,11 +8061,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1929243927
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8292,7 +8344,7 @@ GameObject:
   - component: {fileID: 1970204776}
   - component: {fileID: 1970204775}
   m_Layer: 0
-  m_Name: Bloque_Azul
+  m_Name: Red gradient (29)
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8480,11 +8532,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1970204779
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8570,7 +8628,7 @@ GameObject:
   - component: {fileID: 1997687157}
   - component: {fileID: 1997687156}
   m_Layer: 0
-  m_Name: Bloque_Verde
+  m_Name: BloqueVerde 4
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8758,11 +8816,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &1997687160
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8848,7 +8912,7 @@ GameObject:
   - component: {fileID: 2042640382}
   - component: {fileID: 2042640381}
   m_Layer: 0
-  m_Name: Bloque_Azul
+  m_Name: Red gradient (42)
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9036,11 +9100,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &2042640385
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9126,7 +9196,7 @@ GameObject:
   - component: {fileID: 2059338067}
   m_Layer: 0
   m_Name: racket
-  m_TagString: Raqueta
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9174,7 +9244,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -9302,7 +9372,7 @@ GameObject:
   - component: {fileID: 2115911661}
   - component: {fileID: 2115911660}
   m_Layer: 0
-  m_Name: Bloque_Rojo
+  m_Name: BloqueRojo 6
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9494,7 +9564,13 @@ MonoBehaviour:
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!212 &2115911664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9876,11 +9952,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!4 &2191502438120837582
 Transform:
   m_ObjectHideFlags: 0
@@ -10109,7 +10191,7 @@ GameObject:
   - component: {fileID: 628525706390462050}
   - component: {fileID: 2840768694802751012}
   m_Layer: 0
-  m_Name: Bloque_Morado
+  m_Name: BloqueMorado
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10182,11 +10264,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!4 &3693957760802335073
 Transform:
   m_ObjectHideFlags: 0
@@ -10218,7 +10306,13 @@ MonoBehaviour:
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!50 &3905931060733874439
 Rigidbody2D:
   serializedVersion: 5
@@ -10316,7 +10410,7 @@ GameObject:
   - component: {fileID: 5698994281502567015}
   - component: {fileID: 6008127851668402158}
   m_Layer: 0
-  m_Name: Bloque_Verde
+  m_Name: BloqueVerde
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10334,19 +10428,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 1
+  tipo: 0
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
   powerUpPrefabs:
-  - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
-  - {fileID: 753253491333248729, guid: 3f7b2ee99d27f3f4e98779330e895050, type: 3}
-  - {fileID: 6834413431652499723, guid: 7d23a8f7d6ee2564a90d9f259227d327, type: 3}
-  - {fileID: 8451697284008149924, guid: 1a2cc9be4efaa5b43b718de703465b3e, type: 3}
-  - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
-  - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
-  - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  - {fileID: 1874982066420431555, guid: 1ca78a0208f58674980856bbdde651e6, type: 3}
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!82 &4215739886472576997
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10578,11 +10670,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7084391453389902484, guid: 963d8826cb6fe90e695ab18a5a1df0f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.1446
+      value: -4.83
       objectReference: {fileID: 0}
     - target: {fileID: 7084391453389902484, guid: 963d8826cb6fe90e695ab18a5a1df0f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.2616
+      value: -18.61
       objectReference: {fileID: 0}
     - target: {fileID: 7084391453389902484, guid: 963d8826cb6fe90e695ab18a5a1df0f0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11066,11 +11158,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!1 &6669410165201579871
 GameObject:
   m_ObjectHideFlags: 0
@@ -11086,7 +11184,7 @@ GameObject:
   - component: {fileID: 4619985723391373633}
   - component: {fileID: 8519109761938707607}
   m_Layer: 0
-  m_Name: Bloque_Rojo
+  m_Name: BloqueRojo 2
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11107,7 +11205,7 @@ GameObject:
   - component: {fileID: 289041667961312614}
   - component: {fileID: 4365159882011077636}
   m_Layer: 0
-  m_Name: Bloque_Rojo
+  m_Name: BloqueRojo
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11174,7 +11272,7 @@ GameObject:
   - component: {fileID: 6945844733601003904}
   - component: {fileID: 8450008761218739877}
   m_Layer: 0
-  m_Name: Bloque_Azul
+  m_Name: Bloque Azul
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11195,7 +11293,7 @@ GameObject:
   - component: {fileID: 6394089804391348798}
   - component: {fileID: 8512646058617694933}
   m_Layer: 0
-  m_Name: Bloque_Naranja
+  m_Name: BloqueNaranja
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11600,11 +11698,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58ccfd26baac368bcbbbfc9dd7b52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 2
+  tipo: 0
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!114 &8739593517892363317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11621,7 +11725,13 @@ MonoBehaviour:
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
   puntaje: {fileID: 0}
-  powerUpPrefabs: []
+  powerUpPrefabs:
+  - {fileID: 8976627657047876877, guid: 49181c147453ce94188f33c7756f2c96, type: 3}
+  - {fileID: 6171539901381964327, guid: bf349ff491d6d3d41a7ed8e570b93f90, type: 3}
+  - {fileID: 3489393907367540270, guid: e91c827434e386c4dbe86ca3a30c857f, type: 3}
+  - {fileID: 6188215750882259044, guid: 83508a78487b8c54289f0d3322e49fb4, type: 3}
+  - {fileID: 6641167377379720454, guid: 6717d936efd199347b5c628af1d8f458, type: 3}
+  - {fileID: 6324431291215651372, guid: 85348470b597e70419d3203d60c04571, type: 3}
 --- !u!1 &8835380238650667687
 GameObject:
   m_ObjectHideFlags: 0
@@ -11637,7 +11747,7 @@ GameObject:
   - component: {fileID: 3473986373782174018}
   - component: {fileID: 4215739886472576997}
   m_Layer: 0
-  m_Name: Bloque_Verde
+  m_Name: BloqueVerde 2
   m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11726,4 +11836,3 @@ SceneRoots:
   - {fileID: 108829324}
   - {fileID: 211445871}
   - {fileID: 855145724}
-  - {fileID: 147199680}

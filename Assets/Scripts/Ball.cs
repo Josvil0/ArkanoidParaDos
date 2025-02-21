@@ -8,6 +8,9 @@ public class Ball : MonoBehaviour
 {
     // Movement Speed
     public float speed = 100.0f;
+    //numero bolas
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +46,9 @@ public class Ball : MonoBehaviour
     void Update()
     {
     // Verifica la posición de la bola en cada frame
+
+ 
+    //Restar una vida si la bola se va de la pantalla y asegurarse de que una bola esta por encima de la tabla  (^º^)
         if (this.transform.position.y < -110)
         {
             Debug.Log("You lose!");
