@@ -2,11 +2,15 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
+    public enum TipoBloque { Objetivo, PowerUp, Normal }
+    public TipoBloque tipo;
+
     public ParticleSystem particles;
     public AudioClip destruccionClip;
     private AudioSource audioSource;
 
     [SerializeField] private Contador puntaje;
+    [SerializeField] private GameObject[] powerUpPrefabs;  // Lista de PowerUps posibles
 
     void Start()
     {
@@ -16,41 +20,65 @@ public class Block : MonoBehaviour
         if (destruccionClip == null)
         {
             destruccionClip = Resources.Load<AudioClip>("Audio/Sonido_bloque");
-            if (destruccionClip == null)
-            {
-                Debug.LogWarning("No se pudo cargar el audio 'sonido_bloque'. Verifica la ruta y que el archivo esté en Resources/Audio.");
-            }
         }
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        // Ahora solo decrementamos el contador en el GameManager
         GameManager gameManager = FindObjectOfType<GameManager>();
+
         if (gameManager != null)
         {
-            gameManager.DecrementBlockCount();
+            if (tipo == TipoBloque.Objetivo)
+            {
+                gameManager.DecrementBlockCount();
+            }
+            else if (tipo == TipoBloque.PowerUp)
+            {
+                ActivarPowerUp();  // Activamos el PowerUp aleatorio cuando se rompe el bloque
+            }
         }
 
-        // Subir el contador de puntaje
         puntaje.subircontador();
 
-        // Reproducir el sonido de destrucción
         if (audioSource != null && destruccionClip != null)
         {
             audioSource.PlayOneShot(destruccionClip);
         }
 
-        // Instanciar el efecto de partículas en la posición del bloque
         Instantiate(particles, transform.position, transform.rotation);
 
-        // Deshabilitar el renderizado y el collider para hacer "desaparecer" el bloque
         Renderer render = GetComponent<Renderer>();
         BoxCollider2D collider = GetComponent<BoxCollider2D>();
         render.enabled = false;
         collider.enabled = false;
-
-        // Destruir el objeto después de un breve delay para que se pueda reproducir el sonido y el efecto
-        Destroy(gameObject, 0.2f);
+        enabled = false;
     }
+
+void ActivarPowerUp()
+{
+    if (powerUpPrefabs.Length > 0)
+    {
+        // Elegir aleatoriamente un power-up
+        int randomIndex = Random.Range(0, powerUpPrefabs.Length);
+        GameObject powerUpInstanciado = Instantiate(powerUpPrefabs[randomIndex], transform.position, Quaternion.identity);
+
+        // Hacer que el power-up caiga con física pero no interactúe con los demás objetos
+        Rigidbody2D rb = powerUpInstanciado.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.isKinematic = false;  // El power-up caerá, pero no interactuará con todo el mundo
+        }
+
+        // Asegúrate de que el power-up sea recogido solo por la raqueta y la bola
+        Collider2D col = powerUpInstanciado.GetComponent<Collider2D>();
+        if (col != null)
+        {
+            col.isTrigger = true;  // Usamos un trigger para que el power-up no colisione físicamente
+        }
+    }
+}
+
+
+
 }
