@@ -58,15 +58,21 @@ public class GameManager : MonoBehaviour
 
         if (vidas == 2)
         {
-            corazon_3.sprite = Resources.Load<Sprite>("Corazon_Vacio");
+             Color color = corazon_3.color;
+            color.a = 0.03f;
+            corazon_3.color = color;
         }
         else if (vidas == 1)
         {
-            corazon_2.sprite = Resources.Load<Sprite>("Corazon_Vacio");
+            Color color = corazon_2.color;
+            color.a = 0.03f;
+            corazon_2.color = color;
         }
         else if (vidas == 0)
         {
-            corazon_1.sprite = Resources.Load<Sprite>("Corazon_Vacio");
+            Color color = corazon_1.color;
+            color.a = 0.03f;
+            corazon_1.color = color;
             Debug.Log("¡Has perdido!");
             SceneManager.LoadScene("Scenes/GameOver");
         }

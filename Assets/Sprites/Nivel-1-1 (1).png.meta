@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8d20db2015544f54299bd5cc7da8e8a7
+guid: 84c212e2582e849458036a0fde24a7c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3871186070766408569
-    second: Corazoncitos-1.png_0
+      213: 1305101759515409935
+    second: Nivel-1-1 (1)_0
+  - first:
+      213: -8322944549149688790
+    second: Nivel-1-1 (1)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Corazoncitos-1.png_0
+      name: Nivel-1-1 (1)_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 111
-        width: 340
-        height: 278
+        x: 3
+        y: 2
+        width: 277
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78c278077c8c64ac0800000000000000
-      internalID: -3871186070766408569
+      spriteID: f0e37a3b227ac1210800000000000000
+      internalID: 1305101759515409935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel-1-1 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2
+        width: 155
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cb8a68706fe7c80800000000000000
+      internalID: -8322944549149688790
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Corazoncitos-1.png_0: -3871186070766408569
+      Nivel-1-1 (1)_0: 1305101759515409935
+      Nivel-1-1 (1)_1: -8322944549149688790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

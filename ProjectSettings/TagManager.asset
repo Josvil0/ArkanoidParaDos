@@ -7,6 +7,8 @@ TagManager:
   - Block
   - Raqueta
   - Ball
+  - Border
+  - FireBall
   layers:
   - Default
   - TransparentFX

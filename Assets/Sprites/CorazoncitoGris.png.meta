@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CorazoncitoGris_0: -1999520365705449832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

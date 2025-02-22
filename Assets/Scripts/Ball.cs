@@ -9,6 +9,8 @@ public class Ball : MonoBehaviour
     // Movement Speed
     public float speed = 100.0f;
     public int numBalls = 1;
+    private Rigidbody2D rb;
+    private PowerUpManager powerUpManager;
     //numero bolas
 
 
@@ -16,6 +18,8 @@ public class Ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
+        powerUpManager = FindObjectOfType<PowerUpManager>();
         GetComponent<Rigidbody2D>().linearVelocity = Vector2.up * speed;
         StartCoroutine(IncreaseSpeedOverTime());
     }
@@ -30,6 +34,14 @@ public class Ball : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D col)
     {
+
+        if(col.gameObject.CompareTag("Block"))
+        {
+           if(gameObject.CompareTag("FireBall"))
+            {
+                Destroy(col.gameObject);
+            }
+        }
         // Hit the Racket?
         if (col.gameObject.name == "racket")
         {
