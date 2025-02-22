@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    public enum TipoBloque { Objetivo, PowerUp, Normal }
+    public enum TipoBloque { Objetivo, PowerUp, Normal, Transformable }
     public TipoBloque tipo;
 
     public ParticleSystem particles;
@@ -29,6 +29,17 @@ public class Block : MonoBehaviour
 
         if (gameManager != null)
         {
+            if ( tipo == TipoBloque.Transformable)
+            {
+                tipo = TipoBloque.Normal;
+                //Cambiar de sprite en ejecucion
+                puntaje.subircontador(20);
+                SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+                spriteRenderer.sprite = Resources.Load<Sprite>("Bloque_Morado");
+                
+                return;
+            }
+            else
             if (tipo == TipoBloque.Objetivo)
             {
                 gameManager.DecrementBlockCount();
@@ -39,7 +50,7 @@ public class Block : MonoBehaviour
             }
         }
 
-        puntaje.subircontador();
+        puntaje.subircontador(10);
 
         if (audioSource != null && destruccionClip != null)
         {

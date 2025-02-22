@@ -15,7 +15,7 @@ public class PowerUp : MonoBehaviour
     }
 
     public TipoPowerUp tipoPowerUp;
-
+   
     private PowerUpManager powerUpManager;
 
     private void Start()
@@ -23,14 +23,17 @@ public class PowerUp : MonoBehaviour
         powerUpManager = FindObjectOfType<PowerUpManager>();
     }
 
+
+    
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Verificamos si el objeto que toca el power-up tiene el tag 'Raqueta' o 'Ball'
-        if (other.CompareTag("Raqueta") || other.CompareTag("Ball"))
+        // Verificamos si el objeto que toca el power-up tiene el tag 'Raqueta'
+        if (other.CompareTag("Raqueta"))
         {
             Debug.Log($"PowerUp {tipoPowerUp} recogido por {other.gameObject.tag}");  // Verifica si se detecta la colisión
 
-            // Activamos el PowerUp
+            // Activamos el PowerUp7.000
             if (powerUpManager != null)
             {
                 powerUpManager.ActivarPowerUp(tipoPowerUp);
@@ -42,5 +45,12 @@ public class PowerUp : MonoBehaviour
                 Debug.LogError("No se encontró PowerUpManager.");
             }
         }
+
+        
+        if(other.CompareTag("Border"))
+        {
+            Destroy(gameObject);
+        }
+
     }
 }

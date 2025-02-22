@@ -23,7 +23,7 @@ public class PowerUpManager : MonoBehaviour
         {
             case PowerUp.TipoPowerUp.ModoChill:
                 ActivarModoChill();
-                break;
+              break;
             case PowerUp.TipoPowerUp.RastroDeNeon:
                 ActivarRastroDeNeon();
                 break;
@@ -129,7 +129,6 @@ public class PowerUpManager : MonoBehaviour
         }
 
         // Eliminar las bolas después de un tiempo
-        Invoke("EliminarBolas", powerUpDuration);
     }
 
     void EliminarBolas()

@@ -25,10 +25,11 @@ public class Contador : MonoBehaviour
         
     }
 
-    public void subircontador()
+    public void subircontador(int puntuacion)
     {
+        
         int currentPoints = int.Parse(numPoints.text);
-        currentPoints += 10;
+        currentPoints += puntuacion;
         PlayerPrefs.SetInt("Contador", currentPoints);
         numPoints.text = currentPoints.ToString();
     }

@@ -8,6 +8,7 @@ public class Ball : MonoBehaviour
 {
     // Movement Speed
     public float speed = 100.0f;
+    public int numBalls = 1;
     //numero bolas
 
 
@@ -41,27 +42,35 @@ public class Ball : MonoBehaviour
             // Set Velocity with dir * speed
             GetComponent<Rigidbody2D>().linearVelocity = dir * speed;
         }
-    }
+
+         if (col.gameObject.name == "Border")
+            {
+                numBalls--;
+                Destroy(gameObject);
+            }
+           
+            }
     
     void Update()
     {
-    // Verifica la posición de la bola en cada frame
-
- 
-    //Restar una vida si la bola se va de la pantalla y asegurarse de que una bola esta por encima de la tabla  (^º^)
-        if (this.transform.position.y < -110)
+        if (numBalls < 1)
         {
             Debug.Log("You lose!");
             SceneManager.LoadScene("Scenes/GameOver");
             if (SceneManager.GetActiveScene().name.Equals("GameOver"))
-        {
+            {
                 Debug.Log("QUIT!"); 
                 Application.Quit(); 
-            
+            }
         }
-        } 
     }
-    
+    // Verifica la posición de la bola en cada frame
+
+ 
+    //Restar una vida si la bola se va de la pantalla y asegurarse de que una bola esta por encima de la tabla  (^º^)
+        
+           
+       
     
     IEnumerator IncreaseSpeedOverTime()
     {
@@ -84,5 +93,6 @@ public class Ball : MonoBehaviour
             }
         }
     }
+    
     
 }
