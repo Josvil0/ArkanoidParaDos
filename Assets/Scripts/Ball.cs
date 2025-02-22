@@ -53,16 +53,7 @@ public class Ball : MonoBehaviour
     
     void Update()
     {
-        if (numBalls < 1)
-        {
-            Debug.Log("You lose!");
-            SceneManager.LoadScene("Scenes/GameOver");
-            if (SceneManager.GetActiveScene().name.Equals("GameOver"))
-            {
-                Debug.Log("QUIT!"); 
-                Application.Quit(); 
-            }
-        }
+      
     }
     // Verifica la posición de la bola en cada frame
 

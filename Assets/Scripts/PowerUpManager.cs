@@ -12,9 +12,13 @@ public class PowerUpManager : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindWithTag("Player");
-        ballRigidbody = GameObject.FindWithTag("Ball").GetComponent<Rigidbody2D>();
         raquetaTransform = GameObject.FindWithTag("Raqueta").transform;
 
+    }
+
+    public void SetBall(GameObject ball)
+    {
+        ballRigidbody = ball.GetComponent<Rigidbody2D>();
     }
 
     public void ActivarPowerUp(PowerUp.TipoPowerUp tipo)
