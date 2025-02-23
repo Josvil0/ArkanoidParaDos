@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fa37450346aa8ee00818886f07fb9110
+guid: 6324842bdc25a2a4bb1d760c2a07e3ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2401928192350262239
-    second: Morado_scaled_60x_pngcrushed_0
+      213: 8288426215254106694
+    second: 8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Morado_scaled_60x_pngcrushed_0
+      name: 8_0
       rect:
         serializedVersion: 2
-        x: 479
-        y: 659
-        width: 971
-        height: 592
+        x: 3
+        y: 2
+        width: 74
+        height: 73
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12c67f6f803aaaed0800000000000000
-      internalID: -2401928192350262239
+      spriteID: 642a1439ab7660370800000000000000
+      internalID: 8288426215254106694
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 591a2a515f3af634599881e93f5501d4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Morado_scaled_60x_pngcrushed_0: -2401928192350262239
+      8_0: 8288426215254106694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

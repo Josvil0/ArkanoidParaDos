@@ -2,23 +2,25 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    public enum TipoBloque { Objetivo, PowerUp, Normal, Transformable, DoblePuntos, InvertirControles }
+    public enum TipoBloque { Objetivo, PowerUp, Normal, Transformable, DoblePuntos, InvertirControles, Infinito };
     public TipoBloque tipo;
 
     public ParticleSystem particles;
     public AudioClip destruccionClip;
     private AudioSource audioSource;
+    public bool isInfinito;
 
     [SerializeField] private Contador puntaje;
-    [SerializeField] private GameObject[] powerUpPrefabs;  // Lista de PowerUps posibles
-
+    [SerializeField] private GameObject[] powerUpPrefabs;
     private PowerUpManager powerUpManager;
+    private Vector3 originalScale;
 
     void Start()
     {
         puntaje = FindObjectOfType<Contador>();
         audioSource = GetComponent<AudioSource>();
         powerUpManager = FindObjectOfType<PowerUpManager>();
+        originalScale = transform.localScale;
 
         if (destruccionClip == null)
         {
@@ -32,63 +34,91 @@ public class Block : MonoBehaviour
 
         if (gameManager != null)
         {
-
+            // Bloque transformable: cambia de tipo y da puntos extra
             if (tipo == TipoBloque.Transformable)
             {
                 tipo = TipoBloque.Normal;
                 puntaje.subircontador(20);
                 if (powerUpManager != null && powerUpManager.isNeon)
                 {
-                    puntaje.subircontador(40); // Duplicar los puntos si el rastro de neón está activo
+                    puntaje.subircontador(40);
                 }
                 GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Bloque_Morado");
                 return;
             }
-            else if (tipo == TipoBloque.Objetivo)
+
+            // Bloque objetivo: disminuye el conteo de bloques restantes
+            if (tipo == TipoBloque.Objetivo)
             {
                 gameManager.DecrementBlockCount();
             }
-            else if (tipo == TipoBloque.PowerUp)
+
+            // Bloque PowerUp: activa el power-up correspondiente
+            if (tipo == TipoBloque.PowerUp)
             {
                 ActivarPowerUp();
             }
-            else if (tipo == TipoBloque.DoblePuntos)  // Bloques verdes dan doble puntos
+
+            // Bloque DoblePuntos: duplica la puntuación
+            if (tipo == TipoBloque.DoblePuntos)
             {
                 puntaje.subircontador(40);
-
                 if (powerUpManager != null && powerUpManager.isNeon)
                 {
-                    puntaje.subircontador(80); // Duplicar los puntos si el rastro de neón está activo
+                    puntaje.subircontador(80);
                 }
             }
-            else if (tipo == TipoBloque.InvertirControles)  // Bloques azules invierten controles
+
+            // Bloque InvertirControles: invierte los controles del jugador
+            if (tipo == TipoBloque.InvertirControles)
             {
                 ActivarCambioDeControl();
             }
-            else if (tipo == TipoBloque.Normal)
+
+            // Bloque Normal: da puntos al jugador
+            if (tipo == TipoBloque.Normal)
             {
                 puntaje.subircontador(10);
                 if (powerUpManager != null && powerUpManager.isNeon)
                 {
-                    puntaje.subircontador(20); // Duplicar los puntos si el rastro de neón está activo
+                    puntaje.subircontador(20);
                 }
+            }
+
+            // Desactiva el bloque en lugar de destruirlo
+            gameObject.SetActive(false);
+
+            // Si es un bloque infinito, programamos su regeneración
+            if (isInfinito)
+            {
+                Invoke("RegenerarBloque", 5f);
             }
         }
 
-
-
-
-        puntaje.subircontador(10);
-
+        // Efectos de sonido y partículas al romperse
         if (audioSource != null && destruccionClip != null)
         {
             audioSource.PlayOneShot(destruccionClip);
         }
 
         Instantiate(particles, transform.position, transform.rotation);
-        GetComponent<Renderer>().enabled = false;
-        GetComponent<BoxCollider2D>().enabled = false;
-        enabled = false;
+    }
+
+    void RegenerarBloque()
+    {
+        // Reactivamos el mismo bloque en lugar de crear uno nuevo
+        gameObject.SetActive(true);
+        transform.localScale = originalScale; // Restauramos su tamaño original
+
+        // Reiniciamos la física para evitar problemas de colisión
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+        }
+
+        Debug.Log("Bloque regenerado correctamente en: " + transform.position);
     }
 
     void ActivarCambioDeControl()
@@ -96,7 +126,7 @@ public class Block : MonoBehaviour
         Racket racket = FindObjectOfType<Racket>();
         if (racket != null)
         {
-            racket.InvertirControles(5f); // Invierte los controles por 5 segundos
+            racket.InvertirControles(5f);
         }
     }
 
@@ -104,22 +134,19 @@ public class Block : MonoBehaviour
     {
         if (powerUpPrefabs.Length > 0)
         {
-            // Elegir aleatoriamente un power-up
             int randomIndex = Random.Range(0, powerUpPrefabs.Length);
             GameObject powerUpInstanciado = Instantiate(powerUpPrefabs[randomIndex], transform.position, Quaternion.identity);
 
-            // Hacer que el power-up caiga con física pero no interactúe con los demás objetos
             Rigidbody2D rb = powerUpInstanciado.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
-                rb.isKinematic = false;  // El power-up caerá, pero no interactuará con todo el mundo
+                rb.isKinematic = false;
             }
 
-            // Asegúrate de que el power-up sea recogido solo por la raqueta y la bola
             Collider2D col = powerUpInstanciado.GetComponent<Collider2D>();
             if (col != null)
             {
-                col.isTrigger = true;  // Usamos un trigger para que el power-up no colisione físicamente
+                col.isTrigger = true;
             }
         }
     }

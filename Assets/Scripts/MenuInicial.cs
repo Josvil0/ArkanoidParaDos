@@ -21,4 +21,29 @@ public class MenuInicial : MonoBehaviour
         Application.Quit();
 #endif
     }
+
+
+    public void Infinito()
+    {
+        SceneManager.LoadScene("EscenaInfinita");
+    }
+
+
+    public void atras()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void VolverMenu()
+    {
+        SceneManager.LoadScene("MenuInicio");
+    }
+
+
+    public void Tutorial()
+    {
+         SceneManager.LoadScene("Tutorial");
+    }
+
+   
 }

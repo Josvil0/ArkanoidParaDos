@@ -12,9 +12,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neon
       objectReference: {fileID: 0}
+    - target: {fileID: 4867216675407620261, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288760054701596296, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288760054701596296, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6420123876500205882, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5778109613707237557, guid: fbe02fcdfec932c4bb45c119c08e7e9f, type: 3}
     - target: {fileID: 6479952677974341312, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
       propertyPath: tipoPowerUp
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8229807506286211625, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8229807506286211625, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8229807506286211625, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
       propertyPath: m_LocalPosition.x

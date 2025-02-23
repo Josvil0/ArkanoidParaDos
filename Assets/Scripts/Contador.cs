@@ -4,38 +4,44 @@ using UnityEngine.SceneManagement;
 
 public class Contador : MonoBehaviour
 {
-    private float puntos;
+    private int puntos;
     public TextMeshProUGUI numPoints;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    // Lista de escenas donde se debe reiniciar el contador
+    private string[] escenasReinicio = { "EscenaPrimera", "MenuInicio", "EscenaInfinita" }; 
+
     void Start()
     {
         numPoints = GetComponentInParent<TextMeshProUGUI>();
-        if (SceneManager.GetActiveScene().name.Equals("EscenaSegunda"))
+
+        // Si la escena actual está en la lista, reiniciar el contador
+        if (EscenaReinicio(SceneManager.GetActiveScene().name))  // Cambiar .buildIndex por .name
         {
-            numPoints.text = PlayerPrefs.GetInt("Contador").ToString();
-            
+            puntos = 0;
+            PlayerPrefs.SetInt("Contador", 0);
         }
         else
         {
-        numPoints.text = "000";
-            
+            puntos = PlayerPrefs.GetInt("Contador", 0);
         }
 
-        
-        
+        numPoints.text = puntos.ToString("000");
     }
 
     public void subircontador(int puntuacion)
     {
-        
-        int currentPoints = int.Parse(numPoints.text);
-        currentPoints += puntuacion;
-        PlayerPrefs.SetInt("Contador", currentPoints);
-        numPoints.text = currentPoints.ToString();
+        puntos += puntuacion;
+        PlayerPrefs.SetInt("Contador", puntos);
+        numPoints.text = puntos.ToString("000");
     }
-    // Update is called once per frame
-    void Update()
+
+    private bool EscenaReinicio(string sceneName)  // Ahora recibe un string
     {
-        
+        foreach (string name in escenasReinicio)  // Recorre la lista de nombres
+        {
+            if (sceneName == name)  // Compara nombres en lugar de índices
+                return true;
+        }
+        return false;
     }
 }

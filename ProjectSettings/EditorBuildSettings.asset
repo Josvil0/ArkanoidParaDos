@@ -9,17 +9,41 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuInicio.unity
     guid: 26b4f37f8a17b384dba1322164abfa76
   - enabled: 1
+    path: Assets/Scenes/MenuInicio 1.unity
+    guid: 1120914d0ac340c45b4f4ac19a7a3871
+  - enabled: 1
     path: Assets/Scenes/EscenaPrimera.unity
     guid: 835b8f98bf3d5fb4e8c3d97c7d0d75c4
   - enabled: 1
     path: Assets/Scenes/EscenaSegunda.unity
     guid: 50a1924452029444bbd0666dcd86dca4
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/EscenaTercera.unity
+    guid: 095b9364e1da2fe4d8c84fb5bd13bd97
+  - enabled: 1
+    path: Assets/Scenes/EscenaCuarta.unity
+    guid: ce52fe448cf2fee4583557666d74e3e6
+  - enabled: 1
+    path: Assets/Scenes/EscenaQuinta.unity
+    guid: 40c8099b61e31c4449de84b003793011
+  - enabled: 1
+    path: Assets/Scenes/EscenaSexta.unity
+    guid: a1737c5dead14b145aa09d5808c3fb0b
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 34b86bb8824988f7f93cc81d2eba7b5a
+  - enabled: 0
+    path: Assets/Scenes/EscenaMultiplayer.unity
+    guid: 29cfba3ead11a804387ead49c96d5577
+  - enabled: 1
+    path: Assets/Scenes/EscenaInfinita.unity
+    guid: 4c5c00bf87e89634b8bb40132da8ce10
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: ac1aa6bc9973db24f8efa64ab1358200
+  - enabled: 1
+    path: Assets/Scenes/Tutorial2.unity
+    guid: 74b38be69213fd24a98b449460a7dff4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

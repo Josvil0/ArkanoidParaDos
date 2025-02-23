@@ -10,7 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
       propertyPath: m_Name
-      value: Prefab PowerUp (1) Variant
+      value: Velocidad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867216675407620261, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5288760054701596296, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x

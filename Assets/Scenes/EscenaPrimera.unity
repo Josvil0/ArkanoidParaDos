@@ -325,6 +325,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &108829323
@@ -524,11 +525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1805398282258725783, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 455
+      value: 459
       objectReference: {fileID: 0}
     - target: {fileID: 1805398282258725783, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -60.66
+      value: -69
       objectReference: {fileID: 0}
     - target: {fileID: 1925025847114926977, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_fontSize
@@ -548,11 +549,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2578423881547089440, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -588.29175
+      value: -593
       objectReference: {fileID: 0}
     - target: {fileID: 2578423881547089440, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 549.73
+      value: 563
       objectReference: {fileID: 0}
     - target: {fileID: 2727698204059644501, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_SizeDelta.x
@@ -629,6 +630,10 @@ PrefabInstance:
     - target: {fileID: 5601345903970913407, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 4.2766
+      objectReference: {fileID: 0}
+    - target: {fileID: 6029632362305274592, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6233277794412430052, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_Sprite
@@ -945,7 +950,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 90.2, y: 48.2}
+    oldSize: {x: 97.1, y: 59.2}
     newSize: {x: 25, y: 25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -995,6 +1000,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &163635502
@@ -1104,7 +1110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: -163}
+  m_AnchoredPosition: {x: -402, y: -156}
   m_SizeDelta: {x: 132.081, y: 46.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202152965
@@ -1351,6 +1357,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &211445870
@@ -1629,6 +1636,7 @@ MonoBehaviour:
   tipo: 1
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs:
   - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
@@ -2076,6 +2084,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &489584509
@@ -2348,6 +2357,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &596095118
@@ -2458,7 +2468,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 90.2, y: 48.2}
+    oldSize: {x: 97.1, y: 59.2}
     newSize: {x: 25, y: 25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2719,7 +2729,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 90.2, y: 48.2}
+    oldSize: {x: 97.1, y: 59.2}
     newSize: {x: 25, y: 25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2769,6 +2779,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &609924941
@@ -2853,7 +2864,7 @@ GameObject:
   - component: {fileID: 610128332}
   - component: {fileID: 610128331}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Nivel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2876,7 +2887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -957, y: 549.73}
+  m_AnchoredPosition: {x: -968, y: 563}
   m_SizeDelta: {x: 132.081, y: 46.205}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &610128331
@@ -3207,6 +3218,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &672448221
@@ -3278,6 +3290,135 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1718628132}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &696652782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696652784}
+  - component: {fileID: 696652783}
+  m_Layer: 0
+  m_Name: MusicaXD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &696652783
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696652782}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c6a9963e6414add4fa23c14c3777e465, type: 3}
+  m_Resource: {fileID: 8300000, guid: c6a9963e6414add4fa23c14c3777e465, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 8.17804
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &696652784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696652782}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 297.06918, y: 302.48056, z: -2.8192492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705185534
 GameObject:
@@ -3647,6 +3788,7 @@ MonoBehaviour:
   tipo: 0
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &724841639
@@ -3925,6 +4067,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &855145723
@@ -4084,7 +4227,6 @@ GameObject:
   - component: {fileID: 887864257}
   - component: {fileID: 887864256}
   - component: {fileID: 887864259}
-  - component: {fileID: 887864260}
   m_Layer: 0
   m_Name: border_top_0
   m_TagString: Untagged
@@ -4235,19 +4377,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &887864260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887864255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ff6179cddd023048b9cce4729967529, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerUpManager: {fileID: 0}
 --- !u!1 &945034659
 GameObject:
   m_ObjectHideFlags: 0
@@ -4491,7 +4620,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 90.2, y: 48.2}
+    oldSize: {x: 97.1, y: 59.2}
     newSize: {x: 25, y: 25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4541,6 +4670,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &978667981
@@ -4819,6 +4949,7 @@ MonoBehaviour:
   tipo: 1
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs:
   - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
@@ -5104,6 +5235,7 @@ MonoBehaviour:
   tipo: 1
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs:
   - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
@@ -5389,6 +5521,7 @@ MonoBehaviour:
   tipo: 1
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs:
   - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
@@ -5674,6 +5807,7 @@ MonoBehaviour:
   tipo: 0
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1256789582
@@ -5952,6 +6086,7 @@ MonoBehaviour:
   tipo: 1
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs:
   - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
@@ -6187,7 +6322,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 90.2, y: 48.2}
+    oldSize: {x: 97.1, y: 59.2}
     newSize: {x: 25, y: 25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6237,6 +6372,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1376141696
@@ -6520,6 +6656,7 @@ MonoBehaviour:
   tipo: 1
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs:
   - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
@@ -6847,6 +6984,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1595466551
@@ -7223,7 +7361,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 90.2, y: 48.2}
+    oldSize: {x: 97.1, y: 59.2}
     newSize: {x: 25, y: 25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7273,6 +7411,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1751227758
@@ -7551,6 +7690,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1766533145
@@ -8070,6 +8210,7 @@ MonoBehaviour:
   tipo: 0
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1833013174
@@ -8348,6 +8489,7 @@ MonoBehaviour:
   tipo: 0
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1873450086
@@ -8558,6 +8700,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1929243927
@@ -9029,6 +9172,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1970204779
@@ -9307,6 +9451,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &1997687160
@@ -9585,6 +9730,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &2042640385
@@ -9921,9 +10067,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 090a648d96e0ee644b6e973dda80b6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 1
-  timer: 0
-  invertColors: 0
 --- !u!1 &2115911659
 GameObject:
   m_ObjectHideFlags: 0
@@ -10130,6 +10273,7 @@ MonoBehaviour:
   tipo: 0
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!212 &2115911664
@@ -10301,7 +10445,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 90.2, y: 48.2}
+    oldSize: {x: 97.1, y: 59.2}
     newSize: {x: 25, y: 25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10516,6 +10660,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 15085447402717889, guid: 743ce290c74ae49c19aa3f128322fc7e, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!4 &2191502438120837582
@@ -10822,6 +10967,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!4 &3693957760802335073
@@ -10854,6 +11000,7 @@ MonoBehaviour:
   tipo: 0
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!50 &3905931060733874439
@@ -10974,6 +11121,7 @@ MonoBehaviour:
   tipo: 1
   particles: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs:
   - {fileID: 792778557499710340, guid: a2a3b7e753d0eaf429ebaa6768df6f5a, type: 3}
@@ -11737,6 +11885,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!1 &6669410165201579871
@@ -12271,6 +12420,7 @@ MonoBehaviour:
   tipo: 2
   particles: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!114 &8739593517892363317
@@ -12288,6 +12438,7 @@ MonoBehaviour:
   tipo: 0
   particles: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}
   destruccionClip: {fileID: 0}
+  isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
 --- !u!1 &8835380238650667687
@@ -12355,3 +12506,4 @@ SceneRoots:
   - {fileID: 945034661}
   - {fileID: 705185538}
   - {fileID: 156574541}
+  - {fileID: 696652784}
