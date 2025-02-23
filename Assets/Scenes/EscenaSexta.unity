@@ -588,7 +588,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &54011665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -868,7 +867,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &106883938
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1193,7 +1191,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &214112084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1473,7 +1470,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &254052502
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1760,7 +1756,6 @@ MonoBehaviour:
   - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
   - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
   - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  blockPrefabs: []
 --- !u!212 &261646758
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2040,7 +2035,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &309605149
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2320,7 +2314,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &315906245
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2600,7 +2593,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &369859358
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3042,7 +3034,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &414362877
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3965,7 +3956,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &714324011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4245,7 +4235,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &872012315
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5047,7 +5036,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &952190252
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5327,7 +5315,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &956956781
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5867,7 +5854,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1209211862
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6147,7 +6133,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1216952427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6502,7 +6487,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1323560245
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6932,7 +6916,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1513284748
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7212,7 +7195,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1549682842
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7492,7 +7474,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1555861335
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8032,7 +8013,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1582163918
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8324,7 +8304,6 @@ MonoBehaviour:
   - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
   - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
   - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  blockPrefabs: []
 --- !u!212 &1734817440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8477,11 +8456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1805398282258725783, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 498
+      value: 527.51
       objectReference: {fileID: 0}
     - target: {fileID: 1805398282258725783, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -48.007
+      value: -40.623
       objectReference: {fileID: 0}
     - target: {fileID: 1925025847114926977, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_fontSize
@@ -8501,11 +8480,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2578423881547089440, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -615
+      value: -675
       objectReference: {fileID: 0}
     - target: {fileID: 2578423881547089440, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 505.98
+      value: 461.51
       objectReference: {fileID: 0}
     - target: {fileID: 2727698204059644501, guid: 60467e72aecf4d0dd971100ecc079550, type: 3}
       propertyPath: m_SizeDelta.x
@@ -8956,7 +8935,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1750202948
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9243,7 +9221,6 @@ MonoBehaviour:
   - {fileID: 8567167169390333840, guid: ab5fce140e283e84d8e332d81dd67888, type: 3}
   - {fileID: 5597523075707921539, guid: d13ccd7a4b6abfb43b31b574b88b53d3, type: 3}
   - {fileID: 3623912402554172073, guid: 13a02976395c95e44bf5967452f07882, type: 3}
-  blockPrefabs: []
 --- !u!212 &1750822386
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9523,7 +9500,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1757612877
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10173,7 +10149,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1777201199
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10528,7 +10503,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1830592381
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10808,7 +10782,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1844568373
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11608,7 +11581,6 @@ MonoBehaviour:
   isInfinito: 0
   puntaje: {fileID: 0}
   powerUpPrefabs: []
-  blockPrefabs: []
 --- !u!212 &1886243990
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11764,7 +11736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -955, y: 505.98}
+  m_AnchoredPosition: {x: -970, y: 468.89}
   m_SizeDelta: {x: 132.081, y: 46.205}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1979234831
@@ -12031,7 +12003,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -359, y: -144}
+  m_AnchoredPosition: {x: -366.45, y: -141}
   m_SizeDelta: {x: 132.081, y: 46.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107768295

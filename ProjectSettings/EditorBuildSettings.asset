@@ -30,11 +30,11 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenaSexta.unity
     guid: a1737c5dead14b145aa09d5808c3fb0b
   - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: 1929c6d95993af74ea1fbfe80fcf0f39
+  - enabled: 1
     path: Assets/Scenes/GameOver.unity
-    guid: 34b86bb8824988f7f93cc81d2eba7b5a
-  - enabled: 0
-    path: Assets/Scenes/EscenaMultiplayer.unity
-    guid: 29cfba3ead11a804387ead49c96d5577
+    guid: 16a5f2f07ccaae44fb969fd0a1cf696c
   - enabled: 1
     path: Assets/Scenes/EscenaInfinita.unity
     guid: 4c5c00bf87e89634b8bb40132da8ce10
